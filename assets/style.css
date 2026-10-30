@@ -228,9 +228,9 @@ h3 { font-size: 22px; letter-spacing: -0.02em; line-height: 1.2; }
   background: var(--inv-fg);
   opacity: .1;
 }
-.ph-label { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--inv-muted); }
-.ph-time { font-size: 76px; font-weight: 700; letter-spacing: -0.05em; line-height: 1; margin: 6px 0 4px; font-variant-numeric: tabular-nums; }
-.ph-sub { font-size: 14px; color: var(--inv-muted); }
+.ph-label { text-align: center; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--inv-muted); }
+.ph-time { text-align: center; white-space: nowrap; font-size: clamp(56px, 19vw, 72px); font-weight: 700; letter-spacing: -0.03em; text-indent: -0.03em; line-height: 1; margin: 10px 0 8px; font-variant-numeric: tabular-nums; }
+.ph-sub { text-align: center; font-size: 14px; color: var(--inv-muted); }
 .ph-tasks { margin-top: auto; display: grid; gap: 8px; }
 .ph-task {
   display: flex;
