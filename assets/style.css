@@ -474,3 +474,25 @@ section { padding: 96px 0; }
   .nav a:not(.lang) { padding: 8px 7px; }
   .nav .lang { margin-left: 4px; padding: 6px 9px; }
 }
+
+/* ---------- Donate ---------- */
+.donate-section { padding-top: 0; }
+.donate {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 48px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  align-items: end;
+}
+.donate h2 { font-size: clamp(30px, 4.2vw, 48px); }
+.donate-text { color: var(--muted); max-width: 32em; margin: 18px 0 0; font-size: 18px; }
+.donate-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 18px; }
+.donate-qr { width: 132px; height: 132px; border-radius: 14px; background: #fff; padding: 8px; border: 1px solid var(--line); }
+@media (max-width: 720px) {
+  .donate { grid-template-columns: 1fr; padding: 28px; gap: 28px; }
+  .donate-actions { align-items: stretch; }
+  .donate-actions .btn { justify-content: center; }
+  .donate-qr { display: none; }
+}
