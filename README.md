@@ -9,9 +9,9 @@ assets/style.css   assets/main.js   assets/favicon.svg
 404.html   .nojekyll
 ```
 
-## 1. Данные разработчика
+## 1. Данные на сайте
 
-Разработчик: Dmitry Kukhar, почта: massivewhitestarlight@gmail.com. Чтобы поменять, используйте в VS Code ⇧⌘H (Replace in Files).
+Имя разработчика на сайте не указывается. Почта для связи: massivewhitestarlight@gmail.com, ссылка на пожертвования: Boosty. Чтобы поменять, используйте в VS Code ⇧⌘H (Replace in Files).
 
 После релиза в `index.html` и `ru/index.html` найдите `href="#" aria-disabled="true"` и поставьте ссылку на приложение в App Store.
 

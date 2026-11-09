@@ -496,3 +496,10 @@ section { padding: 96px 0; }
   .donate-actions .btn { justify-content: center; }
   .donate-qr { display: none; }
 }
+
+/* ---------- v3: drop logo + section colors ---------- */
+.logo-mark svg { width: 14px; height: 14px; }
+.feature .num { display: flex; align-items: center; justify-content: space-between; }
+.sec-dots { display: inline-flex; gap: 5px; }
+.sec-dots i { width: 8px; height: 8px; border-radius: 50%; display: block; }
+.feature:hover .sec-dots { opacity: 1; }
